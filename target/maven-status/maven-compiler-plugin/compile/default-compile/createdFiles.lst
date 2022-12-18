@@ -1,0 +1,17 @@
+com\javarush\domain\City.class
+com\javarush\domain\Category.class
+com\javarush\domain\Language.class
+com\javarush\domain\FilmText.class
+com\javarush\domain\Address.class
+com\javarush\domain\Customer.class
+com\javarush\domain\Film.class
+com\javarush\domain\Payment.class
+com\javarush\domain\Staff.class
+com\javarush\domain\Country.class
+com\javarush\domain\Actor.class
+com\javarush\domain\Inventory.class
+com\javarush\domain\Rating.class
+com\javarush\domain\Store.class
+com\javarush\domain\Feature.class
+com\javarush\Main.class
+com\javarush\domain\Rental.class
