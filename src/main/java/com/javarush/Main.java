@@ -83,9 +83,9 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        //Customer customer = main.createCustomer();
-        //main.customerReturnInventoryToStore();
-        //main.customerRentInventory(customer);
+        Customer customer = main.createCustomer();
+        main.customerReturnInventoryToStore();
+        main.customerRentInventory(customer);
         main.newFilmWasMade();
 
     }
@@ -117,14 +117,12 @@ public class Main {
             film.setYear(Year.now());
             filmDAO.save(film);
 
-/*
             FilmText filmText = new FilmText();
             filmText.setFilm(film);
             filmText.setId(film.getId());
             filmText.setDescription("comedy");
             filmText.setTitle("My fairy tales");
             filmTextDAO.save(filmText);
-*/
 
 
             session.getTransaction().commit();
